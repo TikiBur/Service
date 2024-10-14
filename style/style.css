@@ -87,7 +87,6 @@ button, a {
     gap: 10px;
 }
 
-
 .desktop {
     display: none;
 }
@@ -137,28 +136,28 @@ button, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     list-style: none;
-    padding: 0 25px 0 25px;
+    padding: 0 15px;
 }
 
-.info__scroller-link:focus {
+a.info__scroller-link:focus {
     border: 2px solid #B8FFEC;
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
 }
 
-.info__scroller-link:hover {
+a.info__scroller-link:hover {
     border: 2px solid #B8FFEC;
     background-color: white;
     border-radius: 5px;
-    padding: 10px;
 }
 
-.info__scroller-link {
+a.info__scroller-link {
     text-decoration: none;
     color: #7e7e82;
+    display: inline-block;
+    padding: 10px;
 }
 
 .info__text {
