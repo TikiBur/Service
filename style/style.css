@@ -148,6 +148,13 @@ button, a {
     padding: 10px;
 }
 
+.info__scroller-link:hover {
+    border: 2px solid #B8FFEC;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 .info__scroller-link {
     text-decoration: none;
     color: #7e7e82;
